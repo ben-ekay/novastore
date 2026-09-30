@@ -1,0 +1,17 @@
+.DS_Store
+
+# Local environment / secrets
+.env
+.env.*
+
+# Local database/config files with credentials
+config/db.php
+!config/db.example.php
+config/local.php
+config/database.local.php
+
+# Uploaded runtime files
+uploads/products/*
+
+# Keep the uploads folder in Git
+!uploads/products/.gitkeep
